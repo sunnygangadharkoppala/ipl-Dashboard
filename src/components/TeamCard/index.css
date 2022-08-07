@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+.cardHeading {
+  color: #fff;
+  font-family: 'sans-serif';
+  font-size: 24px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.cardImage {
+  height: 70px;
+}
+.LinkContainer {
+  text-decoration: none;
+  width: 48%;
+  height: 150px;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #e9d5d528;
+  margin: 10px;
+  border: 1px solid #fff;
+  list-style-type: none;
+}
+@media (max-width: 576px) {
+  .LinkContainer {
+    width: 100%;
+  }
+  .cardImage {
+    height: 50px;
+  }
+}

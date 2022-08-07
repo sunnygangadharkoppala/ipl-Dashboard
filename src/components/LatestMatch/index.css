@@ -1,0 +1,34 @@
+.latestMatchContainer {
+  background-color: #0f172a;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 9px;
+}
+.secondHeading {
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+.latestMatchHeading {
+  font-family: 'Bree Serif';
+  font-size: 26px;
+}
+.latestMatchLogo {
+  width: 24%;
+  height: 80%;
+}
+.latestMatchRightText {
+  width: 33%;
+
+  text-align: right;
+}
+.latestMatchLeftText {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}

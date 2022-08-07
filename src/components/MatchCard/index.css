@@ -1,0 +1,42 @@
+.matchCardItemsContainer {
+  background-color: #0f172a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 9px;
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+.matchCardLogo {
+  height: 30%;
+}
+.matchCardHeading {
+  font-size: 24px;
+  font-family: 'Bree Serif';
+  margin: 5px;
+}
+.matchCardResult {
+  font-size: 20px;
+  margin: 5px;
+}
+.MatchCardStatus {
+  font-size: 22px;
+  margin: 5px;
+}
+
+.Won {
+  color: #e31a1a;
+}
+.Lost {
+  color: #18ed66;
+}
+@media (max-width: 567px) {
+  .matchCardItemsContainer {
+    width: 100%;
+  }
+}
